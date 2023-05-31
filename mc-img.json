@@ -1,9 +1,9 @@
 {
   "prBodyDefinitions": {
-    "Age": "[<img width=\"50\" src=\"https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/age-slim\"](https://docs.renovatebot.com/merge-confidence/)",
-    "Adoption": "[<img width=\"50\" src=\"https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/adoption-slim\"](https://docs.renovatebot.com/merge-confidence/)",
-    "Passing": "[<img width=\"50\" src=\"https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/compatibility-slim/{{{fromVersion}}}\"](https://docs.renovatebot.com/merge-confidence/)",
-    "Confidence": "[<img width=\"50\" src=\"https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/confidence-slim/{{{fromVersion}}}\"](https://docs.renovatebot.com/merge-confidence/)"
+    "Age": "[<img width=\"50\" src=\"https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/age-slim\">](https://docs.renovatebot.com/merge-confidence/)",
+    "Adoption": "[<img width=\"50\" src=\"https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/adoption-slim\">](https://docs.renovatebot.com/merge-confidence/)",
+    "Passing": "[<img width=\"50\" src=\"https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/compatibility-slim/{{{fromVersion}}}\">](https://docs.renovatebot.com/merge-confidence/)",
+    "Confidence": "[<img width=\"50\" src=\"https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/confidence-slim/{{{fromVersion}}}\">](https://docs.renovatebot.com/merge-confidence/)"
   },
   "packageRules": [
     {
