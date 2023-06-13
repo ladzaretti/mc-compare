@@ -1,10 +1,9 @@
-
 {
   "prBodyDefinitions": {
     "Age": "[![age](http://localhost:3000/api/mc/badges/age/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/)",
     "Adoption": "[![adoption](http://localhost:3000/api/mc/badges/adoption/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/)",
-    "Passing": "[![passing](http://localhost:3000/api/mc/badges/compatibility/{{datasource}}/{{replace '/' '%2f' depName}}/{{{fromVersion}}}?slim=true/{{{toVersionVersion}}})](https://docs.renovatebot.com/merge-confidence/)",
-    "Confidence": "[![confidence](http://localhost:3000/api/mc/badges/confidence/{{datasource}}/{{replace '/' '%2f' depName}}/{{{fromVersion}}}?slim=true/{{{toVersion}}})](https://docs.renovatebot.com/merge-confidence/)"
+    "Passing": "[![passing](http://localhost:3000/api/mc/badges/compatibility/{{datasource}}/{{replace '/' '%2f' depName}}/{{{fromVersion}}}/{{{toVersionVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/)",
+    "Confidence": "[![confidence](http://localhost:3000/api/mc/badges/confidence/{{datasource}}/{{replace '/' '%2f' depName}}/{{{fromVersion}}}/{{{toVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/)"
   },
   "packageRules": [
     {
